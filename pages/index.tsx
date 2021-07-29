@@ -7,61 +7,51 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>The 1 Million Jobs Project</title>
-        <meta name="description" content="Plan to create 1 Miningful Million Jobs over time!" />
+        <meta name="description" content="Plan to create 1 Meaningful Million Jobs over time!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Author: <a href="https://davyengone.io">Davy Engone</a>
+          Creating 1 Million Meaningful Jobs in a lifetime
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Join the community by choosing the category you belong to{' '}
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>I work at one of your companies</h2>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Your courses helped me find a meaningful Job</h2>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>You got me a meaningful freelance Job</h2>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>One of your products provided me a meaningful Job</h2>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://davyengone.io"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Powered by{' '} Davy Engone
         </a>
       </footer>
     </div>
